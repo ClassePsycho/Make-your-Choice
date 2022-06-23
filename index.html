@@ -4044,7 +4044,21 @@
   return S.noConflict = function (e) {
     return C.$ === S && (C.$ = Gt), e && C.jQuery === S && (C.jQuery = Vt), S;
   }, "undefined" == typeof e && (C.jQuery = C.$ = S), S;
-});</script><style>body {
+});</script><style>/*Rules*/
+.prule {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 45px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+/*Start Screen*/
+body {
     background-color: black;
 }
 
@@ -4057,17 +4071,6 @@
     font-weight: 500;
 }
 
-.prule {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: white;
-    font-size: 45px;
-    background-color: #000;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    
-}
 
 .startingbuttons1 {
     text-align: center;
@@ -4094,30 +4097,37 @@
     margin-top: 10%;
     border-color: #fff;
     border: 1px solid;
-    
-}</style></head>
+
+}
+
+/*End Start Screen*/</style></head>
     <body>
-        
 
-                <div class="headfontd"> 
-                   <h1 class="headfont">WOULD YOU LIKE TO BEGIN?</h1>
+	<div class="start">
+        <div class="headfontd">
+            <h1 class="headfont">WOULD YOU LIKE TO BEGIN?</h1>
         </div>
-                <p class="prule">
-                    <button class="startingbuttons1">YES</button>
-                    <button class="startingbuttons2">NO</button>
-                </p>
-         
+        <p class="prule">
+            <button class="startingbuttons1">YES</button>
+            <button class="startingbuttons2">NO</button>
+        </p>
+        </div>
+        <div class="page2">
+            <p class="prule">Lets Begin . . .</p>
+        </div> 
+     
 
- 
+
+
 
     
 <script>
 /*__POPCODESTART__*/
 /*Start Screen*/
 $(".startingbuttons1").click(function () {
-  $(".headfontd").fadeOut();
-  $(".startingbuttons1").fadeOut();
-  $(".startingbuttons2").fadeOut();
+  $(".headfontd").fadeOut(1000);
+  $(".startingbuttons1").fadeOut(1000);
+  $(".startingbuttons2").fadeOut(1000);
 });
 $("startingbuttons2").click(function () {
   $("about:blank").window.top.close();
@@ -4125,4 +4135,4 @@ $("startingbuttons2").click(function () {
 /*End Start Screen*/
 
 /*page 2*/
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImZhZGVPdXQiLCJ3aW5kb3ciLCJ0b3AiLCJjbG9zZSJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQUEsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJDLEtBQXZCLENBQTZCLFlBQVc7QUFDcENELEVBQUFBLENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JFLE9BQWhCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxtQkFBRCxDQUFELENBQXVCRSxPQUF2QjtBQUNBRixFQUFBQSxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkUsT0FBdkI7QUFFSCxDQUxEO0FBTUFGLENBQUMsQ0FBQyxrQkFBRCxDQUFELENBQXNCQyxLQUF0QixDQUE0QixZQUFXO0FBQ25DRCxFQUFBQSxDQUFDLENBQUMsYUFBRCxDQUFELENBQWlCRyxNQUFqQixDQUF5QkMsR0FBekIsQ0FBOEJDLEtBQTlCO0FBQ0gsQ0FGRDtBQUlBOztBQUVBIiwic291cmNlc0NvbnRlbnQiOlsiLypTdGFydCBTY3JlZW4qL1xuJChcIi5zdGFydGluZ2J1dHRvbnMxXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuaGVhZGZvbnRkXCIpLmZhZGVPdXQoKTtcbiAgICAkKFwiLnN0YXJ0aW5nYnV0dG9uczFcIikuZmFkZU91dCgpO1xuICAgICQoXCIuc3RhcnRpbmdidXR0b25zMlwiKS5mYWRlT3V0KCk7XG4gICAgXG59KTtcbiQoXCJzdGFydGluZ2J1dHRvbnMyXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCJhYm91dDpibGFua1wiKS53aW5kb3cuIHRvcC4gY2xvc2UoKTtcbn0pO1xuXG4vKkVuZCBTdGFydCBTY3JlZW4qL1xuXG4vKnBhZ2UgMiovIl19</script></body></html>
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImZhZGVPdXQiLCJ3aW5kb3ciLCJ0b3AiLCJjbG9zZSJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQUEsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJDLEtBQXZCLENBQTZCLFlBQVc7QUFDcENELEVBQUFBLENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JFLE9BQWhCLENBQXdCLElBQXhCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxtQkFBRCxDQUFELENBQXVCRSxPQUF2QixDQUErQixJQUEvQjtBQUNBRixFQUFBQSxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkUsT0FBdkIsQ0FBK0IsSUFBL0I7QUFFSCxDQUxEO0FBTUFGLENBQUMsQ0FBQyxrQkFBRCxDQUFELENBQXNCQyxLQUF0QixDQUE0QixZQUFXO0FBQ25DRCxFQUFBQSxDQUFDLENBQUMsYUFBRCxDQUFELENBQWlCRyxNQUFqQixDQUF3QkMsR0FBeEIsQ0FBNEJDLEtBQTVCO0FBQ0gsQ0FGRDtBQUlBOztBQUVBIiwic291cmNlc0NvbnRlbnQiOlsiLypTdGFydCBTY3JlZW4qL1xuJChcIi5zdGFydGluZ2J1dHRvbnMxXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuaGVhZGZvbnRkXCIpLmZhZGVPdXQoMTAwMCk7XG4gICAgJChcIi5zdGFydGluZ2J1dHRvbnMxXCIpLmZhZGVPdXQoMTAwMCk7XG4gICAgJChcIi5zdGFydGluZ2J1dHRvbnMyXCIpLmZhZGVPdXQoMTAwMCk7XG5cbn0pO1xuJChcInN0YXJ0aW5nYnV0dG9uczJcIikuY2xpY2soZnVuY3Rpb24oKSB7XG4gICAgJChcImFib3V0OmJsYW5rXCIpLndpbmRvdy50b3AuY2xvc2UoKTtcbn0pO1xuXG4vKkVuZCBTdGFydCBTY3JlZW4qL1xuXG4vKnBhZ2UgMiovIl19</script></body></html>
