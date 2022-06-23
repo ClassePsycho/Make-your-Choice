@@ -1,8 +1,8 @@
 /*Start Screen*/
 $(".startingbuttons1").click(function() {
-    $(".headfontd").hide();
-    $(".startingbuttons1").hide();
-    $(".startingbuttons2").hide();
+    $(".headfontd").fadeOut();
+    $(".startingbuttons1").fadeOut();
+    $(".startingbuttons2").fadeOut();
     
 });
 $("startingbuttons2").click(function() {
