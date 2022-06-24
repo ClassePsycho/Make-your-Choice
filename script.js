@@ -11,9 +11,9 @@ $("startingbuttons2").click(function() {
 
 /*page 2*/
 $(".startingbuttons1").click(function() {
-    $(".page2a").fadeIn(5000);
+    $(".page2a").delay(500).fadeIn(3500);
     $(".page2a").fadeOut(2000);
-    $(".page2b").fadeIn(15000);
+    $(".page2b").delay(5500).fadeIn(3500);
 
 
 });
