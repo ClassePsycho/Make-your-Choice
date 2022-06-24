@@ -13,7 +13,7 @@ $("startingbuttons2").click(function() {
 $(".startingbuttons1").click(function() {
     $(".page2a").delay(500).fadeIn(3500);
     $(".page2a").fadeOut(2000);
-    $(".page2b").delay(5500).fadeIn(3500);
+    $(".page2c").delay(5500).fadeIn(3500);
 
 
 });
