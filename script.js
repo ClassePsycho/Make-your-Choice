@@ -1,8 +1,6 @@
 /*Start Screen*/
 $(".startingbuttons1").click(function() {
-    $(".headfontd").fadeOut(1000);
-    $(".startingbuttons1").fadeOut(1000);
-    $(".startingbuttons2").fadeOut(1000);
+    $(".start").fadeOut(1000);
 
 });
 $("startingbuttons2").click(function() {
@@ -12,3 +10,10 @@ $("startingbuttons2").click(function() {
 /*End Start Screen*/
 
 /*page 2*/
+$(".startingbuttons1").click(function() {
+    $(".page2a").fadeIn(5000);
+    $(".page2a").fadeOut(2000);
+    $(".page2b").fadeIn(15000);
+
+
+});
