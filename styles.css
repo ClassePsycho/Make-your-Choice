@@ -23,6 +23,7 @@ body {
     color: white;
     letter-spacing: 3px;
     font-weight: 500;
+    margin-top: 10%;
 }
 
 
@@ -35,10 +36,14 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-    border-color: #fff;
-    border: 1px solid;
+    border: 1px black solid;
+    padding: 5px;
+
 }
 
+.startingbuttons1:hover {
+    border-color: white;
+}
 
 .startingbuttons2 {
     text-align: center;
@@ -49,9 +54,20 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-    border-color: #fff;
-    border: 1px solid;
+    border: 1px black solid;
+    padding: 5px;
 
 }
 
+.startingbuttons2:hover {
+    border-color: white;
+}
+
 /*End Start Screen*/
+/*page 2*/
+.page2a {
+    display: none;
+}
+.page2b {
+    display: none;
+}
