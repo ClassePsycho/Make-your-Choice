@@ -174,7 +174,56 @@ body {
 .walldeath {
     display:none;
 }
-
+.eattrailmixend {
+    display: none;
+}
+.caretoshare { 
+    display: none;
+}
+.youtooktolong {
+    display: none;
+}
+.gottolovebeinglate {
+    display: none;
+}
+.latemuch {
+    display:none;
+}
+.youdied3yearsago {
+    display:none;
+}
+.sleepagain {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.sleepagain:hover {
+    border-color: white;
+}
+.tryagain {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.tryagain:hover {
+    border-color: white;
+}
 /*Deaths or Ends*/
 .death { display:none;
+}
+.wake { display:none;
 }
