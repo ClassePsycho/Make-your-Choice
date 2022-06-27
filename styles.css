@@ -167,3 +167,14 @@ body {
 .checkknife:hover {
     border-color: white;
 }
+
+.page4a-lightmatches {
+    display: none;
+}
+.walldeath {
+    display:none;
+}
+
+/*Deaths or Ends*/
+.death { display:none;
+}
