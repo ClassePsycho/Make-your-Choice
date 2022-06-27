@@ -4119,7 +4119,101 @@ body {
 }
 .page2c {
     display: none;
-}</style></head>
+}
+.page2dchoice {
+    display: none;
+    }
+
+.page2buttons {
+    display: none;
+
+}
+.checkyourpockets {  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 35px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+
+}
+.checkyourpockets:hover {
+    border-color: white;
+}
+.gobacktosleep {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 35px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.gobacktosleep:hover {
+    border-color: white;
+}
+/*page 3*/
+.page3a-1 {
+    display: none;
+}
+.page3b-1choices {
+    display:none;
+}
+/*page3b-1buttons*/
+.lightmatches {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.lightmatches:hover {
+    border-color: white;
+}
+
+.eattrailmix{
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.eattrailmix:hover {
+    border-color: white;
+}
+
+.checkknife {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.checkknife:hover {
+    border-color: white;
+}
+</style></head>
     <body>
 
         <div class="start">
@@ -4135,12 +4229,36 @@ body {
             <p class="prule">Lets begin . . . </p>
         </div>
         <div class="page2b">
-            <p class="prule"> Now I'll set the scene for you </p>
+            <p class="prule"> I'll set the scene for you </p>
         </div>
         <div class="page2c">
-          <p class="prule">You lay on the ground, the floor is damp, bitter and litered with gaps, jagged rocks, and moss. You open your eyes everything is resting in pitch darkness. The only light coming in is tiny beams, allowing you see about an arms length ahead of you.</p>
+            <p class="prule">You lay on the ground, the floor is damp, bitter and litered with gaps, jagged rocks, and moss. You open your eyes everything is resting in pitch darkness. The only light coming in is tiny beams, allowing you see about an arms length ahead of you.</p>
             </div>
+            <div class="page2dchoice">
+                <p class="prule"> What do you do first?</p>
+                <div class="page2buttons"><p><button class="checkyourpockets">Check Your pockets</button></p>
+                <p><button class="gobacktosleep">Go back to sleep</button></p>
+        </div> </div>
+            <div class="page3a-1">
+                <p class="prule"> You check you pockets. In your possession you have - a box of matches - a bag of trail mix - a small knife - a canteen of water</p>
+        </div>
+                <div class="page3b-1choices">
+                    <p class="prule">What do you do next?</p>
+                   <button class="lightmatches">Light a match</button>
+                    <button class="eattrailmix">Munch on Trailmix</button>
+                    <button class="checkknife">Check the knife</button>
+                    
+                </div>
+        <div class="page4a-lightmatches">
+                    </div>
+        <div class="eattrailmixend">
+        </div>
+        <div class="youtooktolong">
+        </div>
+          
             
+
+
 
 
     
@@ -4160,8 +4278,19 @@ $("startingbuttons2").click(function () {
 $(".startingbuttons1").click(function () {
   $(".page2a").delay(500).fadeIn(3500);
   $(".page2a").fadeOut(2000);
-  $(".page2b").delay(500).fadeIn(3500);
+  $(".page2b").delay(550).fadeIn(3500);
   $(".page2b").fadeOut(2000);
-  $(".page2c").delay(5500).fadeIn(3500);
+  $(".page2c").delay(5550).fadeIn(3500).delay(7000);
+  $(".page2c").fadeOut(2000);
+  $(".page2dchoice").delay(17500).fadeIn(3500).delay(4500);
+  $(".page2buttons").fadeIn(3500);
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImZhZGVPdXQiLCJ3aW5kb3ciLCJ0b3AiLCJjbG9zZSIsImRlbGF5IiwiZmFkZUluIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBQSxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkMsS0FBdkIsQ0FBNkIsWUFBVztBQUNwQ0QsRUFBQUEsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZRSxPQUFaLENBQW9CLElBQXBCO0FBRUgsQ0FIRDtBQUlBRixDQUFDLENBQUMsa0JBQUQsQ0FBRCxDQUFzQkMsS0FBdEIsQ0FBNEIsWUFBVztBQUNuQ0QsRUFBQUEsQ0FBQyxDQUFDLGFBQUQsQ0FBRCxDQUFpQkcsTUFBakIsQ0FBd0JDLEdBQXhCLENBQTRCQyxLQUE1QjtBQUNILENBRkQ7QUFJQTs7QUFFQTs7QUFDQUwsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJDLEtBQXZCLENBQTZCLFlBQVc7QUFDcENELEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixHQUFuQixFQUF3QkMsTUFBeEIsQ0FBK0IsSUFBL0I7QUFDQVAsRUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhRSxPQUFiLENBQXFCLElBQXJCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixHQUFuQixFQUF3QkMsTUFBeEIsQ0FBK0IsSUFBL0I7QUFDQVAsRUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhRSxPQUFiLENBQXFCLElBQXJCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixJQUFuQixFQUF5QkMsTUFBekIsQ0FBZ0MsSUFBaEM7QUFHSCxDQVJEIiwic291cmNlc0NvbnRlbnQiOlsiLypTdGFydCBTY3JlZW4qL1xuJChcIi5zdGFydGluZ2J1dHRvbnMxXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuc3RhcnRcIikuZmFkZU91dCgxMDAwKTtcblxufSk7XG4kKFwic3RhcnRpbmdidXR0b25zMlwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiYWJvdXQ6YmxhbmtcIikud2luZG93LnRvcC5jbG9zZSgpO1xufSk7XG5cbi8qRW5kIFN0YXJ0IFNjcmVlbiovXG5cbi8qcGFnZSAyKi9cbiQoXCIuc3RhcnRpbmdidXR0b25zMVwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiLnBhZ2UyYVwiKS5kZWxheSg1MDApLmZhZGVJbigzNTAwKTtcbiAgICAkKFwiLnBhZ2UyYVwiKS5mYWRlT3V0KDIwMDApO1xuICAgICQoXCIucGFnZTJiXCIpLmRlbGF5KDUwMCkuZmFkZUluKDM1MDApO1xuICAgICQoXCIucGFnZTJiXCIpLmZhZGVPdXQoMjAwMCk7XG4gICAgJChcIi5wYWdlMmNcIikuZGVsYXkoNTUwMCkuZmFkZUluKDM1MDApO1xuXG5cbn0pOyJdfQ==</script></body></html>
+/*page 3-1*/
+
+$(".checkyourpockets").click(function () {
+  $(".page2dchoice").delay(600).fadeOut(2000);
+  $(".page3a-1").delay(4200).fadeIn(3500).delay(3500).fadeOut(2000);
+  $(".page3b-1choices").delay(13000).fadeIn(3500);
+});
+/*lighmatchs*/
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImZhZGVPdXQiLCJ3aW5kb3ciLCJ0b3AiLCJjbG9zZSIsImRlbGF5IiwiZmFkZUluIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBQSxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkMsS0FBdkIsQ0FBNkIsWUFBVztBQUNwQ0QsRUFBQUEsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZRSxPQUFaLENBQW9CLElBQXBCO0FBRUgsQ0FIRDtBQUlBRixDQUFDLENBQUMsa0JBQUQsQ0FBRCxDQUFzQkMsS0FBdEIsQ0FBNEIsWUFBVztBQUNuQ0QsRUFBQUEsQ0FBQyxDQUFDLGFBQUQsQ0FBRCxDQUFpQkcsTUFBakIsQ0FBd0JDLEdBQXhCLENBQTRCQyxLQUE1QjtBQUNILENBRkQ7QUFJQTs7QUFFQTs7QUFDQUwsQ0FBQyxDQUFDLG1CQUFELENBQUQsQ0FBdUJDLEtBQXZCLENBQTZCLFlBQVc7QUFDcENELEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixHQUFuQixFQUF3QkMsTUFBeEIsQ0FBK0IsSUFBL0I7QUFDQVAsRUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhRSxPQUFiLENBQXFCLElBQXJCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixHQUFuQixFQUF3QkMsTUFBeEIsQ0FBK0IsSUFBL0I7QUFDQVAsRUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhRSxPQUFiLENBQXFCLElBQXJCO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYU0sS0FBYixDQUFtQixJQUFuQixFQUF5QkMsTUFBekIsQ0FBZ0MsSUFBaEMsRUFBc0NELEtBQXRDLENBQTRDLElBQTVDO0FBQ0FOLEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYUUsT0FBYixDQUFxQixJQUFyQjtBQUNBRixFQUFBQSxDQUFDLENBQUMsZUFBRCxDQUFELENBQW1CTSxLQUFuQixDQUF5QixLQUF6QixFQUFnQ0MsTUFBaEMsQ0FBdUMsSUFBdkMsRUFBNkNELEtBQTdDLENBQW1ELElBQW5EO0FBQ0FOLEVBQUFBLENBQUMsQ0FBQyxlQUFELENBQUQsQ0FBbUJPLE1BQW5CLENBQTBCLElBQTFCO0FBQ0gsQ0FURDtBQVVBOztBQUVBUCxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkMsS0FBdkIsQ0FBNkIsWUFBVztBQUN0Q0QsRUFBQUEsQ0FBQyxDQUFDLGVBQUQsQ0FBRCxDQUFtQk0sS0FBbkIsQ0FBeUIsR0FBekIsRUFBOEJKLE9BQTlCLENBQXNDLElBQXRDO0FBQ0FGLEVBQUFBLENBQUMsQ0FBQyxXQUFELENBQUQsQ0FBZU0sS0FBZixDQUFxQixJQUFyQixFQUEyQkMsTUFBM0IsQ0FBa0MsSUFBbEMsRUFBd0NELEtBQXhDLENBQThDLElBQTlDLEVBQW9ESixPQUFwRCxDQUE0RCxJQUE1RDtBQUNBRixFQUFBQSxDQUFDLENBQUMsa0JBQUQsQ0FBRCxDQUFzQk0sS0FBdEIsQ0FBNEIsS0FBNUIsRUFBbUNDLE1BQW5DLENBQTBDLElBQTFDO0FBQ0QsQ0FKRDtBQUtBIiwic291cmNlc0NvbnRlbnQiOlsiLypTdGFydCBTY3JlZW4qL1xuJChcIi5zdGFydGluZ2J1dHRvbnMxXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuc3RhcnRcIikuZmFkZU91dCgxMDAwKTtcblxufSk7XG4kKFwic3RhcnRpbmdidXR0b25zMlwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiYWJvdXQ6YmxhbmtcIikud2luZG93LnRvcC5jbG9zZSgpO1xufSk7XG5cbi8qRW5kIFN0YXJ0IFNjcmVlbiovXG5cbi8qcGFnZSAyKi9cbiQoXCIuc3RhcnRpbmdidXR0b25zMVwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiLnBhZ2UyYVwiKS5kZWxheSg1MDApLmZhZGVJbigzNTAwKTtcbiAgICAkKFwiLnBhZ2UyYVwiKS5mYWRlT3V0KDIwMDApO1xuICAgICQoXCIucGFnZTJiXCIpLmRlbGF5KDU1MCkuZmFkZUluKDM1MDApO1xuICAgICQoXCIucGFnZTJiXCIpLmZhZGVPdXQoMjAwMCk7XG4gICAgJChcIi5wYWdlMmNcIikuZGVsYXkoNTU1MCkuZmFkZUluKDM1MDApLmRlbGF5KDcwMDApO1xuICAgICQoXCIucGFnZTJjXCIpLmZhZGVPdXQoMjAwMCk7XG4gICAgJChcIi5wYWdlMmRjaG9pY2VcIikuZGVsYXkoMTc1MDApLmZhZGVJbigzNTAwKS5kZWxheSg0NTAwKTtcbiAgICAkKFwiLnBhZ2UyYnV0dG9uc1wiKS5mYWRlSW4oMzUwMCk7XG59KTtcbi8qcGFnZSAzLTEqL1xuXG4kKFwiLmNoZWNreW91cnBvY2tldHNcIikuY2xpY2soZnVuY3Rpb24oKSB7XG4gICQoXCIucGFnZTJkY2hvaWNlXCIpLmRlbGF5KDYwMCkuZmFkZU91dCgyMDAwKTtcbiAgJChcIi5wYWdlM2EtMVwiKS5kZWxheSg0MjAwKS5mYWRlSW4oMzUwMCkuZGVsYXkoMzUwMCkuZmFkZU91dCgyMDAwKTtcbiAgJChcIi5wYWdlM2ItMWNob2ljZXNcIikuZGVsYXkoMTMwMDApLmZhZGVJbigzNTAwKTtcbn0pO1xuLypsaWdobWF0Y2hzKi9cbiJdfQ==</script></body></html>
