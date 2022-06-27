@@ -74,3 +74,96 @@ body {
 .page2c {
     display: none;
 }
+.page2dchoice {
+    display: none;
+    }
+
+.page2buttons {
+    display: none;
+
+}
+.checkyourpockets {  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 35px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+
+}
+.checkyourpockets:hover {
+    border-color: white;
+}
+.gobacktosleep {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 35px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.gobacktosleep:hover {
+    border-color: white;
+}
+/*page 3*/
+.page3a-1 {
+    display: none;
+}
+.page3b-1choices {
+    display:none;
+}
+/*page3b-1buttons*/
+.lightmatches {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.lightmatches:hover {
+    border-color: white;
+}
+
+.eattrailmix{
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.eattrailmix:hover {
+    border-color: white;
+}
+
+.checkknife {
+     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border: 1px black solid;
+    padding: 5px;
+}
+.checkknife:hover {
+    border-color: white;
+}
